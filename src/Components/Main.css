@@ -1,0 +1,78 @@
+.header {
+  height: 150px;
+  background-color: #42a5f5;
+}
+
+.header h1 {
+  color: #000000;
+  text-align: center;
+  padding: 4%;
+  font-family: Impact, sans-serif;
+}
+
+.participants-wrapper {
+  background-color: #42a5f56b;
+}
+
+.participants-wrapper p {
+  font-size: 14px;
+  margin-top: 17px;
+  color: #000000;
+}
+
+.custom-list {
+  border-top: 0px !important;
+}
+
+.tab-header {
+  font-size: 35px;
+  padding: 3%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: -26px;
+}
+
+.times-spoken {
+  height: 500px;
+  width: 500px;
+  border: 1px solid;
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
+
+.show-hide {
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .times-spoken {
+    height: 500px;
+    width: 100%;
+    border: 1px solid;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+
+  .tab-header {
+    font-size: 20px;
+    padding: 3%;
+  }
+  .show-hide {
+    float: initial;
+  }
+}
